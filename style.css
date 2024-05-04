@@ -2,6 +2,16 @@ body {
     font-family: sans-serif;
 }
 
+header{
+    background-color: black; 
+    height: 200px;
+}
+
+nav{
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
 h1{
     text-align: center;
     font-size: 60px;
@@ -28,6 +38,24 @@ h1{
     border-radius: 20px;
 }
 
+.silka:visited {
+    color: watermelon;
+}
+
+.silka:focus {
+    color: grey;
+}
+
+.silka2 {
+    text-decoration: none;
+    font-size: 25px;
+    color: crimson;
+    background-image: linear-gradient(to right bottom,white,blue,red);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
 div:hover {
     box-shadow: 0px 5px 5px 5px navy;
 }
@@ -41,4 +69,32 @@ footer{
     color: teal;
     padding: 10px;
     font-size: 20px;    
+}
+
+.img {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg");
+    width: 60px;
+    height: 30x;
+    border-radius: 15px;
+}
+
+.img2 {
+    content: url("https://pngicon.ru/file/uploads/telegram.png");
+    width: 60px;
+    height: 30x;
+    border-radius: 15px;
+}
+
+.img3 {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VK_Compact_Logo_%282021-present%29.svg/1200px-VK_Compact_Logo_%282021-present%29.svg.png");
+    width: 60px;
+    height: 30x;
+    border-radius: 15px;
+}
+
+.img4 {
+    content: url("https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=w240-h480-rw");
+    width: 60px;
+    height: 30x;
+    border-radius: 15px;
 }
