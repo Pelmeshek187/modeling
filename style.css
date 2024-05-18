@@ -7,6 +7,11 @@ body {
     height: 100px;
 }
 
+.social {
+    display: block;
+    width: 30px;
+}
+
 
 header{
     background-color: black; 
@@ -98,11 +103,12 @@ div:hover {
     box-shadow: inset 0px -10px 15px 0 orange;
 }
 
-footer{
-    background-image: linear-gradient(to right,#C9F76F,#FFFF73,#67E667 );
-    color: teal;
-    padding: 10px;
-    font-size: 20px;    
+.sect {
+    position: fixed;
+    background-color: purple;
+    width: 100px;
+    top: 200px;
+    right: 0px;
 }
 
 .img {
