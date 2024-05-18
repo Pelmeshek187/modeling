@@ -2,14 +2,28 @@ body {
     font-family: sans-serif;
 }
 
+.image-1{
+    width: 100px;
+    height: 100px;
+}
+
+
 header{
     background-color: black; 
     height: 200px;
 }
 
 nav{
-    margin-top: 120px;
-    margin-left: 10px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.text-1{
+    font-size: 30px;
+}
+
+.text-2{
+    font-size: 30px;
 }
 
 h1{
@@ -20,6 +34,26 @@ h1{
     margin: 30px auto;
     letter-spacing: 15px;
     text-shadow: -4px 2px navy,-8px 4px slateblue,-12px 6px turquoise;
+}
+
+.image-3{
+    width: 400px;
+    height: 200px;
+}
+
+.image-4{
+    width: 400px;
+    height: 200px;
+}
+
+.image-5{
+    width: 400px;
+    height: 200px;
+}
+
+.image-6{
+    width: 400px;
+    height: 200px;
 }
   
   
